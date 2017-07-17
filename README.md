@@ -1,3 +1,4 @@
+![mit-logo](https://csailprettycommittee.mit.edu/sites/default/files/images/MIT_logo.png)
 This repo contains the slides and the demos for a talk I gave on Computer Vision for high school students at MIT's annual hackathon - MIT Blueprints.
 
 The basic idea is to introduce students to the broad level perspective of how a neural network and deep learning works without any mathematics, while still stressing on the importance of the mathematics if someone needs to build such systems!
