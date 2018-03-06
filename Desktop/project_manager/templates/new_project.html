@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Spotify test Beta</title>
+       <link rel="stylesheet" media="screen" href ="static/bootstrap.min.css">
+       <link rel="stylesheet" href="static/bootstrap-theme.min.css">
+       <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+      <style type="text/css">
+   body { background: #000000 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+    </head>
+    <body >
+
+<h2 style="color:#2FD565"> <u>Spotify Playlist Feedback</u> </h2>
+<div class = "container">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<br>
+<div class="grid">
+    <div class="row">
+        <div class="col-lg-4"><iframe src="https://open.spotify.com/embed/user/spandanmadanmit/playlist/705eDUb1vQ6zebIr0MWN2P" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></div>
+        <div class="col-lg-7">
+          <iframe src="https://open.spotify.com/embed/track/5Db9VIdDsN5yu3Eu7CT0i4" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <iframe src="https://open.spotify.com/embed/track/1Slwb6dOYkBlWal1PGtnNg" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <div class="form-group">
+      <br>
+      <input type="text" class="form-control" id="song-name" name="song-name" placeholder="Which one was better: 1 or 2?">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+
+  </form>
+        <div class="text-center">
+        </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-lg-4"><iframe src="https://open.spotify.com/embed/user/spandanmadanmit/playlist/7FlppPNK45qk0WMkW9u28Z" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></div>
+        <div class="col-lg-7">
+<iframe src="https://open.spotify.com/embed/track/4Y7XAxTANhu3lmnLAzhWJW" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <iframe src="https://open.spotify.com/embed/track/0hCB0YR03f6AmQaHbwWDe8" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <div class="form-group">
+      <br>
+      <input type="text" class="form-control" id="song-name" name="song-name" placeholder="Which one was better: 1 or 2?">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+
+  </form>
+        <div class="text-center">
+        </div>
+        </div>
+    </div>
+
+
+</div>
+<!--iframe src="https://open.spotify.com/embed/user/spandanmadanmit/playlist/705eDUb1vQ6zebIr0MWN2P" width="300" height="380" frameborder="0" allowtransparency="true"></iframe-->
+
+
+
+</div>
+<!--div class="container">
+
+
+  <h2>Spotify Test Beta</h2>
+  <form  action="" method="post" role="form">
+    {{ form.csrf }}
+    <div class="form-group">
+      <label for="Project_Name">Add Project:</label>
+      <input type="text" class="form-control" id="Project_Name" name="Project_Name" placeholder="What's your name?">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="Task_Name">Add Task:</label>
+      <input type="text" class="form-control" id="Task_Name" name="Task_Name" placeholder="What's your name?">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="Delete_Task">Delete Task:</label>
+      <input type="text" class="form-control" id="Delete_Task" name="Delete_Task" placeholder="What's your name?">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="Password">Password:</label>
+      <input type="text" class="form-control" id="Password" name="Password" placeholder="What's your name?">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-success">Submit</button>
+    <button type="reset" class="btn btn-info">Reset</button>
+    <a href="/reset">reset todo</a>
+  </form>
+
+  <br>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+
+        {% for message in messages %}
+            {% if "Error" not in message[1]: %}
+                <div class="alert alert-info">
+                {{ message[1] }}
+                </div>
+            {% endif %}
+
+            {% if "Error" in message[1]: %}
+                <div class="alert alert-warning">
+                {{ message[1] }}
+                </div>
+            {% endif %}
+        {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+</div>
+<br>
+</div>
+</div-->
+</body>
+</html>

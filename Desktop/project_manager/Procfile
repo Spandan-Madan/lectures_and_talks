@@ -1,0 +1,1 @@
+web: gunicorn Agent:app --log-file=-
