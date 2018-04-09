@@ -1,6 +1,6 @@
-This is a repository of all public talks and presentations that I have given recently.
+## PPTs and videos of my public talks and presentations.
 
-Links to YouTube videos:
+#### Links to YouTube videos:
 
 - [Introduction to Machine Learning and Deep learning (Lecture at HBS)](https://www.youtube.com/watch?v=lsizZGqDszc)
 
